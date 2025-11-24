@@ -72,6 +72,22 @@ streamlit run main.py
 
 ```
 <br><br>
+<br><br>
+
+### Optionally, to avoid version or env conflicts: using Conda after cloning the repo
+
+```bash
+# Navigate to the working directory
+cd PE-GPT
+
+# Create environment
+conda env create -f environment.yml
+
+# Activate the created environment
+conda activate pe-gpt
+
+streamlit run main.py
+```
 
 ## Reference
 @reference: Fanfan Lin, Xinze Li, Weihao Lei, Juan J. Rodriguez-Andina, Josep M. Guerrero, Changyun Wen, Xin Zhang, and Hao Ma, "PE-GPT: a New Paradigm for Power Electronics Design", IEEE Transactions on Industrial Electronics.
