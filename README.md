@@ -72,11 +72,14 @@ streamlit run main.py
 
 ```
 <br><br>
-<br><br>
 
-### Optionally, to avoid version or env conflicts: using Conda after cloning the repo
+### Install with Conda
+To avoid version or env conflicts, you may use Conda for specific verions: Tested with python `3.10.18`
 
 ```bash
+# clone the github repository
+git clone https://github.com/XinzeLee/PE-GPT
+
 # Navigate to the working directory
 cd PE-GPT
 
